@@ -15,6 +15,7 @@ def bfs(s):
                 visited[w] = 1
 
     return tracking
+
 def dfs(s):
     tracking = []
     visited = [0 for _ in range(V+1)]
